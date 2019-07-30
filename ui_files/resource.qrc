@@ -1,0 +1,10 @@
+<RCC>
+  <qresource>
+    <file>source/246px-Adobe_Photoshop_CC_icon.png</file>
+    <file>source/Get Info Blue Button.png</file>
+    <file>source/Export To Picture Document.png</file>
+    <file>./source/Picture Document.png</file>
+  </qresource>
+</RCC>
+
+
