@@ -386,15 +386,15 @@ class myWindow(QtWidgets.QMainWindow):
             QtWidgets.QMessageBox.warning(self.ui.centralwidget,'Error','Please open a photo first')    
     
 
-if __name__ == '__main__':
-
-    app = QtWidgets.QApplication(sys.argv)
-    qssStyle = CommonHelper.readQss('./ui_files/style.qss')
-    mainWnd = FramelessWindow()
-    mainWnd.setFrameSize(600,400)
-    mainWnd.setWindowTitle('Photo Editor')
-    mainWnd.setStyleSheet(qssStyle)
-    mainWnd.setWindowIcon(QtGui.QIcon('./ui_files/source/246px-Adobe_Photoshop_CC_icon.png'))
-    mainWnd.setWidget(myWindow(mainWnd))  # 把自己的窗口添加进来
-    mainWnd.show()
-    sys.exit(app.exec_())
+#if __name__ == '__main__':
+#
+#    app = QtWidgets.QApplication(sys.argv)
+#    qssStyle = CommonHelper.readQss('./ui_files/style.qss')
+#    mainWnd = FramelessWindow()
+#    mainWnd.setFrameSize(600,400)
+#    mainWnd.setWindowTitle('Photo Editor')
+#    mainWnd.setStyleSheet(qssStyle)
+#    mainWnd.setWindowIcon(QtGui.QIcon('./ui_files/source/246px-Adobe_Photoshop_CC_icon.png'))
+#    mainWnd.setWidget(myWindow(mainWnd))  # 把自己的窗口添加进来
+#    mainWnd.show()
+#    sys.exit(app.exec_())
